@@ -1,1 +1,14 @@
+#!/bin/bash
 
+wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u77-b03/jdk-8u77-linux-x64.tar.gz
+
+#tar -xzvf jdk1.8.0_77.tar.gz
+#mv  jdk1.8.0_77 /opt
+#cd /opt/jdk1.8.0_77
+
+#update-alternatives --install /usr/bin/java java /opt/jdk1.8.0_77/bin/java 1
+#update-alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_77/bin/javac 1
+#update-alternatives --install /usr/lib/mozilla/plugins/libjavaplugin.so mozilla-javaplugin.so /opt/jdk1.8.0_77/jre/lib/amd64/libnpjp2.so 1
+#update-alternatives --set java /opt/jdk1.8.0_77/bin/java
+#update-alternatives --set javac /opt/jdk1.8.0_77/bin/javac
+#update-alternatives --set mozilla-javaplugin.so /opt/jdk1.8.0_77/jre/lib/amd64/libnpjp2.so
